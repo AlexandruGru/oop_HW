@@ -1,0 +1,8 @@
+Design two objects, HtmlElement and HtmlSelectElement. 
+HtmlElement has "click" instance method and "focus" prototype method. 
+
+const e = new HtmlElement();
+e.click() and e.focus();
+
+Then, create "HtmlSelectElement" with items (optional), addItem, removeItem members. 
+HtmlSelectElement needs to inherit "click" and "focus" methods.
